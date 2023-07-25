@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'CormorantGaramond Regular';
+  src: url(../fonts/CormorantGaramond-Regular.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'CormorantGaramond Bold';
+  src: url(../fonts/CormorantGaramond-Bold.woff2) format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'CormorantGaramond Semibold';
+  src: url(../fonts/CormorantGaramond-SemiBold.woff2) format("woff2");
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Garamond Regular';
+  src: url(../fonts/garamond.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Garamond Bold';
+  src: url(../fonts/garamond_bold.woff2) format("woff2");
+  font-weight: 700;
+}
+
+body {
+  background-color: #111111;
+}
+
+html {
+  zoom: 80%;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+/* header top */
+
+.header {
+  background-image: url(../images/main-bgc.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-family: 'CormorantGaramond Semibold';
+  font-size: 18px;
+  line-height: 130%;
+  
+  padding: 30px 0 20px;
+}
+
+.nav__list-item {
+  padding-right: 80px;
+}
+
+.nav__list-item:nth-child(4) {
+  padding-right: 0px;
+}
+
+.nav__link,
+.our-work__nav-link {
+  transition: .3s;
+}
+
+.nav__link:hover,
+.our-work__nav-link:hover {
+  color: #CDAA7D;
+  border-bottom: 1px solid #CDAA7D;
+}
+
+/* header content */
+
+.header__content {
+  padding: 260px 0 93px;
+  color: #fff;
+}
+
+.header__title {
+  font-family: 'Garamond Bold';
+  font-size: 72px;
+  line-height: 120%;
+  padding: 0 268px 0;
+  text-align: center;
+  margin-bottom: 240px;
+}
+
+.header__scroll {
+  display: flex;
+  justify-content: center;
+}
+
+.header__scroll-description {
+  font-family: 'CormorantGaramond Bold';
+  font-size: 18px;
+  line-height: 140%;
+  padding-left: 20px;
+}
+
+/* about */
+
+.about {
+  padding: 120px 0 95px;
+}
+
+.about__inner {
+  text-align: center;
+  color: #fff;
+  font-family: 'CormorantGaramond Bold';
+  font-size: 27px;
+  line-height: 130%;
+  padding: 0 219px 0;
+}
+
+.about__img {
+  margin-bottom: 60px;
+}
+
+.about__text:nth-child(1) {
+  margin-bottom: 16px;
+}
+
+/* services */
+
+.services__list {
+  color: #fff;
+  font-family: 'Garamond Regular';
+  font-size: 30px;
+  line-height: 120%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.services__list-item {
+  margin-bottom: 60px;
+}
+
+/* cosmetics */
+
+.cosmetics__items {
+  padding: 150px 0;
+}
+
+/* our work */
+
+.our-work__top {
+  text-align: center;
+}
+
+.our-work__title {
+  color: #fff;
+  font-family: 'Garamond Bold';
+  font-size: 48px;
+}
+
+.our-work__nav {
+  color: #fff;
+  font-family: 'CormorantGaramond Regular';
+  font-size: 24px;
+  line-height: 130%;
+  display: flex;
+  justify-content: center;
+
+  padding: 80px 0 60px;
+}
+
+.our-work__nav-item {
+  padding-right: 60px;
+}
+
+.our-work__nav-item:nth-child(4) {
+  padding-right: 0;
+}
+
+.our-work__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.our-work {
+  padding-bottom: 100px;
+}
+
+/* footer */
+
+.footer__inner {
+  color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  padding: 80px 0;
+}
+
+.contacts__title,
+.working-mode__title,
+.instagram__title {
+  font-family: 'Garamond Bold';
+  font-size: 24px;
+  line-height: 120%;
+
+  margin-bottom: 25px;
+}
+
+.contacts__info, 
+.working-mode__info {
+  font-family: 'CormorantGaramond Regular';
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.copyright {
+  padding: 30px 0;
+  text-align: center;
+  color: #fff;
+
+  font-family: 'CormorantGaramond Bold';
+  font-size: 18px;
+  line-height: 140%;
+}
+
